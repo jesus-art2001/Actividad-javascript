@@ -1,0 +1,168 @@
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  font-size: 1.2rem; 
+  line-height: 1.6em; 
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
+
+p {
+  margin-bottom: 1.6em;
+}
+
+.container {
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #333;
+  color: white;
+  padding: 2rem 0;
+
+  
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  right: 0;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+
+.logo {
+  letter-spacing: 15px;
+  font-size: 1.3em;
+}
+
+.menu-icon {
+  display: none;
+}
+
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li {
+
+  display: inline-block;
+}
+
+
+.navigation ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s linear;
+  border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+  background: #cc4444;
+}
+
+.main {
+  padding-top: 12rem;
+}
+
+.footer {
+  background: #ade3f3;
+  padding: 4rem 0;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+
+.menu-link{
+    color: black;
+}
+
+.fb{
+    color: blue;
+}
+
+
+@media only screen and (max-width: 760px) {
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    .navigation{
+        width: 100%;
+     
+
+    }
+    .navigation ul{
+         display: block;
+    }
+    .navigation ul.show{
+        display: none;
+    }
+      
+    .navigation ul li {
+        display: block;
+      }
+      
+      
+      .navigation ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.2s linear;
+        border-radius: 5px;
+      }
+      
+      .navigation ul li a:hover {
+        background: #cc4444;
+      }
+}
+
+.estilo1{
+  width: 250px;
+  height: 250px;
+  background: #10375c;
+  color: #f3c623 ;
+   
+  margin-top: 250px;
+  border:3px solid #000;
+  display: block;
+
+  font-size: 1.5vw;
+}
+.estilo2{
+  width: 100px;
+  height: 250px;
+  background: #f3c623 ;
+  color: #10375c ;
+  margin-top: 300px;
+  border:1px solid #000;
+  display: inline-block;
+
+  font-size: 1.5vw;
+}
+
+  
+

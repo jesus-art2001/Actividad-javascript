@@ -1,0 +1,76 @@
+#contene{
+    width: 80%;
+    height: 70px;
+    background-color: darkslategrey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+#form1 button{
+    margin-top: 10px;
+    margin: 15px;
+    width: 22%;
+    height: 45px;
+    background-color: lightslategrey;
+    left: 100px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+#norte{
+    width: 50%;
+    height: 100px auto;
+    background-color: rgb(4, 203, 253);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: none;
+}
+#norte select{
+    width: 25%;
+    margin: 25px;
+}
+#centro{
+    width: 50%;
+    height: 100px auto;
+    background-color: rgb(4, 255, 37);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: none;
+}
+#centro select{
+    width: 25%;
+    margin: 25px;
+}
+#sur{
+    width: 50%;
+    height: 100px auto;
+    background-color: rgb(4, 255, 37);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: none;
+}
+#sur select{
+    width: 25%;
+    margin: 25px;
+}
+.z1{
+    display: block;
+    width: 50%;
+    height: 100px auto;
+    background-color: rgb(4, 203, 253);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+#resultado{
+    display: block;
+    width: 50%;
+    height: 100px auto;
+    background-color: rgb(253, 4, 4);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
